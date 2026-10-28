@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission | IES College of Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="./images/logo.jpg" alt="IES College Logo" class="logo">
+        <div class="college-name">
+            <h1>IES College of Technology</h1>
+            <p>Bhopal, Madhya Pradesh</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="student-login.html">Student Login</a>
+        <a href="admission.html">Admission</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="form-container">
+        <h2>Admission Enquiry Form</h2>
+
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" maxlength="10" placeholder="Enter 10-digit mobile number" required>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="course">Select Course</label>
+            <select id="course" name="course" required>
+                <option value="">Choose Course</option>
+                <option value="computer-science">Computer Science Engineering</option>
+                <option value="mechanical">Mechanical Engineering</option>
+                <option value="civil">Civil Engineering</option>
+                <option value="electrical">Electrical Engineering</option>
+            </select>
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </div>
+
+    <footer>
+        <h3>IES College of Technology</h3>
+        <p>Ratibad, Bhopal, Madhya Pradesh - 462044</p>
+
+         <div class="social-links">
+            <a href="https://www.instagram.com/iesuniversity/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100070666552012" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.linkedin.com/school/ies-college-of-technology-bhopal/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2026 IES College of Technology. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
